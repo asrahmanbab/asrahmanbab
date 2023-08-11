@@ -1,1 +1,16 @@
+function as(inputArray,elementreples,subsTraction){
 
+    for (let i = 0; i <=inputArray.length; i++){
+
+        if(inputArray[i]===elementreples){
+
+            inputArray[i]=subsTraction
+
+        }
+
+    }
+
+    console.log(inputArray)
+
+}
+as([1,2,1,2,4,4,4,5,5,4,5,5,5,1,1,5,1],1,3)
